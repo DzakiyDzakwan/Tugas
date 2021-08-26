@@ -7,9 +7,13 @@
     <title>Website Pertama</title>
 </head>
 <body>
-    <table border="1" width="100%" padding="10px" margin="10px">
+    <table bgcolor="FFDFAF" border="0" width="100%" padding="10px" margin="10px">
         <tr>
-            <th colspan="2" height="100"><h1>Hello Website</h1></th>
+            <th colspan="2" height="100">
+                <marquee>
+                    <h1>Hello Website</h1>
+                </marquee>
+            </th>
         </tr>
         <tr>
             <td align="center" colspan="3" height="80px">
@@ -19,11 +23,13 @@
             </td>
         </tr>
         <tr>
-            <td align="center" height="auto" width="30%">
+            <td align="center" height="auto" width="30%" style="vertical-align: top;">
                 <form action="/thanks" method="POST">
                     <!--@csrf-->
-                    <h2>Form</h1>
-                    <table>
+                    <table border="0">
+                        <tr>
+                            <th colspan="2"><h2>Form</h2></th>
+                        </tr>
                         <tr>
                             <td>masukkan nama anda = </td>
                             <td ><input type="text"></td>
@@ -83,7 +89,9 @@
                 <h2 align="center">Article</h2>
                 <article>
                     <h3>Sword Art Online The Movie</h3>
-                    <img src="https://img.antaranews.com/cache/800x533/2021/07/06/saoo.png" width="40%" alt="SAO_Aria_of_the_Starless_night">
+                    <a href="https://www.youtube.com/watch?v=VmOLSoEzLoc" target="_blank">
+                        <img src="https://img.antaranews.com/cache/800x533/2021/07/06/saoo.png" width="40%" alt="SAO_Aria_of_the_Starless_night" title="click for trailer">
+                    </a>
                     <p>source : <a href="https://www.antaranews.com/berita/2250918/sword-art-online-kembali-lewat-film-fitur-tayang-oktober-2021">sword-art-online-kembali-lewat-film-fitur-tayang-oktober-2021</a></p>
                     <p>
                         Kabar gembira bagi para pecinta anime besutan <strong>A-1</strong> picture. Kabar nya setelah <abbr title="Sword Art Online">SAO</abbr> the War of Underworld yang baru saja selesai pada winter 2019. Ditahun Ini <abbr title="Sword Art Online">SAO</abbr> akan kembali tayang dengan movie nya. Movie kali ini akan  menceritakan tentang perjalanan Kirito di Aincrad yang belum diceritakn pada season pertama nya. Kemungkinan Sword Art Online Movie Starless of the Aria Night tayang pada 
